@@ -6,18 +6,21 @@
 let nota1, nota2, nota3, nota4, media;
 
 
-connsole.log("informe a primeira nota: ", nota1)
+connsole.log("informe a primeira nota: ")
 nota1 = 7;
-console.log("informe a segunda nota: ", nota2)
+console.log("informe a segunda nota: ")
 nota2 = 8;
-console.log("informe a terceira nota: ", nota3)
+console.log("informe a terceira nota: ")
 nota3 = 9;
-console.log("informe a quarta nota: ", nota4)
+console.log("informe a quarta nota: ")
 nota4 = 6;
 
 
 media = (nota1 + nota2 + nota3 + nota4) / 4;
 
-if (nota1 >= 5 && nota2 >= 5 && nota3 >= 5 && nota4 >= 5) {
-    
+if (media >= 5) {
+    console.log(`media: ${media.toFixed(1)} - aprovado`);
+} else {
+    console.log(`media: ${media.toFixed(1)} - reprovado`);
 }
+    
