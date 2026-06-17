@@ -5,7 +5,6 @@
 
 let nota1, nota2, nota3, nota4, media;
 
-
 connsole.log("informe a primeira nota: ")
 nota1 = 7;
 console.log("informe a segunda nota: ")
