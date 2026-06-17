@@ -5,14 +5,14 @@
 
 let nota1, nota2, nota3, nota4, media;
 
-connsole.log("informe a primeira nota: ")
-nota1 = 7;
+console.log("informe a primeira nota: ")
+nota1 = 4;
 console.log("informe a segunda nota: ")
-nota2 = 8;
+nota2 = 4;
 console.log("informe a terceira nota: ")
-nota3 = 9;
+nota3 = 2;
 console.log("informe a quarta nota: ")
-nota4 = 6;
+nota4 = 1;
 
 
 media = (nota1 + nota2 + nota3 + nota4) / 4;

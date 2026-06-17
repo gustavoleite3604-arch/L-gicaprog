@@ -13,3 +13,5 @@ if ( num % 4 == 0 && num % 5 == 0) {
     (num % 4 != 0 && num % 5 != 0)
     console.log(`${num} não é divisível por 4 e 5`);
 }
+
+//comentario realizado 17/06/26
