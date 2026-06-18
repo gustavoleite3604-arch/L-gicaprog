@@ -1,16 +1,19 @@
 //2) Desenvolver um programa que pergunte o sexo da pessoa e dê como resposta a seguinte orientação de acordo
 //com o sexo informado: “Banheiro masculino à direita” ou “Banheiro feminino à esquerda”.
 
-let sexo, masculino, feminino
+let sexo, masculino, feminino;
 
-sexo = feminino, masculino;
-console.log("informe seu sexo: ")
-sexo = "masculino";
+sexo = ("masculino")
 
-if (masculino) {
-    console.log(`banheiro masculino à direita`)
+console.log(`sexo informado: ${sexo}`)
 
-} else  {
-    (feminino)
-    console.log(`banheiro feminino à esquerda`)
+if (sexo == "masculino") {
+    console.log("Banheiro masculino à direita")
+
+} else if (sexo == "feminino") {
+    console.log("Banheiro feminino à esquerda")
+
+} else {
+    console.log("sexo não identificado")
 }
+
