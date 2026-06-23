@@ -3,6 +3,7 @@
 
 let num;
 let acum = 0;
+let cont;
 console.log(`informe um número: `);
 num = 5;
 console.log(`número informado: ${num}`)
